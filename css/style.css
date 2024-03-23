@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color-yellostone:#f9b925;
+    --color-blueOcean:#191d88;
+    --color--blue-green:#219c90;
+    --color-redStrong:#f31515;
+    --color-purple:#7e30e1;
+    --color-brownDark:#402b3a;
+    --color-bluesky:#0079ff;
+    --color-greenOliva:#009929;
+    --color-blackDark:#000000;
+    --color-orange:#f08a0f;
+    --color-pinkRose:#f400aa;
+    --color-rose:#ff69b4;
+    --color-brown:#5f1a1a;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.calculator{
+    width: 300px;
+    background-color: #000000;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.result{
+    height: 75px;
+    padding: 20px;
+    text-align: right;
+    color: white;
+    font-size: 2.5rem;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 1px;
+}
+
+.buttons button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+
+    color:white;
+    background-color: black;
+}
+
+.button-zero{
+    grid-column: span 2;
+}
+
+.btn-red:hover{
+    background-color: var(--color-redStrong);
+}
+
+.btn-orange:hover{
+    background-color: var(--color-orange);
+}
+
+.btn-yellow:hover{
+    background-color: var(--color-yellostone);
+}
+
+.btn-green:hover{
+    background-color: var(--color-greenOliva);
+}
+
+.btn-blue:hover{
+    background-color: var(--color-blueOcean);
+}
+
+.btn-purple:hover{
+    background-color: var(--color-purple);
+}
+
+.btn-blueSky:hover{
+    background-color:var(--color-bluesky);
+}
+
+.btn-rose:hover{
+    background-color:var(--color-rose);
+}
+
+.btn-white:hover{
+    color:#000000;
+    background-color: white;
+}
+
+.btn-black:hover{
+    background-color:#f400aa;
+}
+
+.buttons:active{
+    opacity: 0.9;
+}
