@@ -7,9 +7,9 @@
   <img align="center" alt="SD-CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg">
 </ul>
 
-<h2>Things this project made me learn: 🧠✨</h2>
+<h2 align="center">Things this project made me learn: 🧠✨</h2>
 <ul>
-  <li>Mathematic manipulations in javascript.</li>
+  <li >Mathematic manipulations in javascript.</li>
   <li>DOM manipulation.</li>
   <li>Capture click events.</li>
   <li>Cpdate the screen with the results.</li>
