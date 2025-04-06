@@ -1,6 +1,8 @@
-**<h2>Calculator 🧮</h2>**
+<h2 align="center">Calculator 🧮
 
-![Image](https://github.com/user-attachments/assets/f19de009-4b35-4f1e-af3e-50a7a1ed3308)
+<br>![Image](https://github.com/user-attachments/assets/f19de009-4b35-4f1e-af3e-50a7a1ed3308)
+
+</h2>
 
 **<h3>Tech used :</h3>**
 <ul>
